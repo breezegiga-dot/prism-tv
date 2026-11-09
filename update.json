@@ -1,0 +1,28 @@
+{
+  "catalogUrl": "https://raw.githubusercontent.com/breezegiga-dot/prism-tv/main/catalog.json",
+  "tag": "v2.0",
+  "tv": {
+    "versionCode": 4,
+    "versionName": "2.0",
+    "url": "https://github.com/breezegiga-dot/prism-tv/releases/download/v2.0/PrismPlayer-2.0.apk",
+    "sha256": "cc6aa4d3f41926724b81620329cf495365c9e5a81adde8c18832c71880ba6666",
+    "size": 49673787,
+    "notes": "Prism 2.0: control the whole TV from your phone (real keys, the TV's own mute, power, mouse pointer, live TV screen), voice commands, Prism Cast screen mirroring from Android phones, App Store with YouTube (SmartTube) and more, automatic updates."
+  },
+  "tv4": {
+    "versionCode": 4,
+    "versionName": "2.0-android4",
+    "url": "https://github.com/breezegiga-dot/prism-tv/releases/download/v2.0/PrismPlayer-2.0-Android4.4.apk",
+    "sha256": "767eb643140b0e0e9c6ad7177e9875ea771fb3882ca0b0eacd5b7c1c7c81cebf",
+    "size": 23082127,
+    "notes": "Prism 2.0: control the whole TV from your phone (real keys, the TV's own mute, power, mouse pointer, live TV screen), voice commands, Prism Cast screen mirroring from Android phones, App Store with YouTube (SmartTube) and more, automatic updates."
+  },
+  "phone": {
+    "versionCode": 1,
+    "versionName": "2.0",
+    "url": "https://github.com/breezegiga-dot/prism-tv/releases/download/v2.0/PrismRemote-2.0.apk",
+    "sha256": "38b70ca13086e3d10ca34440d97b3b14575856474fbc889979052a1d92d80c8c",
+    "size": 1347700,
+    "notes": "Prism 2.0: control the whole TV from your phone (real keys, the TV's own mute, power, mouse pointer, live TV screen), voice commands, Prism Cast screen mirroring from Android phones, App Store with YouTube (SmartTube) and more, automatic updates."
+  }
+}
