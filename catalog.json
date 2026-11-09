@@ -1,0 +1,94 @@
+{
+  "apps": [
+    {
+      "id": "smarttube",
+      "name": "SmartTube (YouTube)",
+      "desc": "YouTube made for TV remotes. Runs on Android 4.2 and newer, no Google services needed. An unofficial open-source app, not made by Google.",
+      "pkg": "org.smarttube.stable",
+      "minSdk": 17,
+      "color": "#DC2626",
+      "icon": "movie",
+      "featured": true,
+      "github": "yuliskov/SmartTube",
+      "tagRegex": ".*s",
+      "assetRegex": "SmartTube_stable_.*_{abi}\\.apk",
+      "cert": "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a"
+    },
+    {
+      "id": "vlc",
+      "name": "VLC",
+      "desc": "The classic media player, from VideoLAN.",
+      "pkg": "org.videolan.vlc",
+      "minSdk": 17,
+      "color": "#EA580C",
+      "icon": "play",
+      "url": "https://get.videolan.org/vlc-android/3.7.1/VLC-Android-3.7.1-{abi}.apk"
+    },
+    {
+      "id": "firefox-old",
+      "name": "Firefox (last for old Android)",
+      "desc": "A web browser that still opens modern sites on Android 4.x. Mozilla no longer updates this version. Use Phone Connect's touchpad to move the pointer.",
+      "pkg": "org.mozilla.firefox",
+      "minSdk": 16,
+      "maxSdk": 20,
+      "color": "#7C3AED",
+      "icon": "search",
+      "url": "https://ftp.mozilla.org/pub/mobile/releases/68.11.0/android-api-16/multi/fennec-68.11.0.multi.android-arm.apk"
+    },
+    {
+      "id": "tvbro",
+      "name": "TV Bro browser",
+      "desc": "A web browser designed for TV remotes.",
+      "pkg": "com.phlox.tvwebbrowser",
+      "minSdk": 26,
+      "color": "#0891B2",
+      "icon": "search",
+      "github": "truefedex/tv-bro",
+      "assetRegex": "tvbro-.*-generic-geckoIncluded-{abi}\\.apk"
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "desc": "Media center for movies, music and add-ons.",
+      "pkg": "org.xbmc.kodi",
+      "minSdk": 24,
+      "color": "#2563EB",
+      "icon": "tv",
+      "url": "https://mirrors.kodi.tv/releases/android/{dir}/kodi-21.3-Omega-{abi}.apk",
+      "abiNames": { "armeabi-v7a": "armeabi-v7a", "arm64-v8a": "arm64-v8a" }
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "desc": "Watch your own media server on the TV.",
+      "pkg": "org.jellyfin.androidtv",
+      "minSdk": 23,
+      "color": "#6D28D9",
+      "icon": "playlist",
+      "github": "jellyfin/jellyfin-androidtv",
+      "assetRegex": "jellyfin-androidtv-v.*-release\\.apk"
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "desc": "Stream PC games to the TV from an NVIDIA or Sunshine host.",
+      "pkg": "com.limelight",
+      "minSdk": 21,
+      "color": "#059669",
+      "icon": "flash",
+      "github": "moonlight-stream/moonlight-android",
+      "assetRegex": "app-nonRoot-release\\.apk"
+    },
+    {
+      "id": "newpipe",
+      "name": "NewPipe",
+      "desc": "Lightweight open-source YouTube client. Made mainly for phones, also works with a remote.",
+      "pkg": "org.schabi.newpipe",
+      "minSdk": 21,
+      "color": "#B91C1C",
+      "icon": "movie",
+      "github": "TeamNewPipe/NewPipe",
+      "assetRegex": "NewPipe_v.*\\.apk"
+    }
+  ]
+}
